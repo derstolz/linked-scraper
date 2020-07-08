@@ -20,7 +20,7 @@ def get_arguments():
                         dest='login',
                         required=False,
                         type=str,
-                        help='Specify your linkedin login email. ')
+                        help='Specify your linkedin login email.')
     parser.add_argument('--password',
                         dest='password',
                         required=False,
@@ -40,7 +40,7 @@ def get_arguments():
                         required=False,
                         type=str,
                         help='Specify a keyword to search for -  a job title, for example. '
-                             'The script then collect links to found people in a txt file.')
+                             'The script then collects links to the found persons in a txt file.')
     parser.add_argument('--search-limit',
                         dest='search_limit',
                         required=False,
@@ -53,7 +53,7 @@ def get_arguments():
                         dest='connect',
                         required=False,
                         type=str,
-                        help='Specify a name to the file with a new-line separated list of URLs of people to connect with. ')
+                        help='Specify a name to the file with a new-line separated list of URLs of people to connect with.')
     parser.add_argument('--visited-profiles',
                         dest='visited_profiles',
                         required=False,
